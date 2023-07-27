@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="start" type="js.build_tools.npm" nameIsGenerated="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="start" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs>
+      <env name="REACT_APP_AUTH0_AUDIENCE" value="https://asor4lkbh5.execute-api.us-east-1.amazonaws.com" />
+      <env name="REACT_APP_AUTH0_CLIENT_ID" value="A2N2G84NMeWSLypJ1HHgry85vGiL7uza" />
+      <env name="REACT_APP_AUTH0_DOMAIN" value="auth.staging.navushealth.com" />
+      <env name="REACT_APP_FORMS_API_DOMAIN" value="https://asor4lkbh5.execute-api.us-east-1.amazonaws.com/dev/v1" />
+      <env name="REACT_APP_NAVUS_API_DOMAIN" value="https://ve8g81z1tb.execute-api.us-east-1.amazonaws.com/v1" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  nhportal:
+    image: 123020097607.dkr.ecr.us-east-1.amazonaws.com/nhportal:alpha
+    ports:
+      - "3000:3000"

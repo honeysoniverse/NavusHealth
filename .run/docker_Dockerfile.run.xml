@@ -1,0 +1,41 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <deployment type="dockerfile">
+      <settings>
+        <option name="imageTag" value="nhportal-web-app" />
+        <option name="buildArgs">
+          <list>
+            <DockerEnvVarImpl>
+              <option name="name" value="AUTH0_CLIENT_ID" />
+              <option name="value" value="A2N2G84NMeWSLypJ1HHgry85vGiL7uza" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="AUTH0_DOMAIN" />
+              <option name="value" value="dev-zfflxh5v.us.auth0.com" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="API_BASE_URL" />
+              <option name="value" value="https://ve8g81z1tb.execute-api.us-east-1.amazonaws.com/v1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="REST_API_BASE_URL" />
+              <option name="value" value="https://asor4lkbh5.execute-api.us-east-1.amazonaws.com/dev/v1" />
+            </DockerEnvVarImpl>
+          </list>
+        </option>
+        <option name="containerName" value="nhportal-web-app" />
+        <option name="contextFolderPath" value="." />
+        <option name="portBindings">
+          <list>
+            <DockerPortBindingImpl>
+              <option name="containerPort" value="3000" />
+              <option name="hostPort" value="3000" />
+            </DockerPortBindingImpl>
+          </list>
+        </option>
+        <option name="sourceFilePath" value="docker/Dockerfile" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
