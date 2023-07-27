@@ -11,10 +11,6 @@ In the project directory, you can run:
 Create .env file in project root. Current it should look like this:
 
 ```
-REACT_APP_AUTH0_DOMAIN=dev-zfflxh5v.us.auth0.com
-REACT_APP_AUTH0_CLIENT_ID=A2N2G84NMeWSLypJ1HHgry85vGiL7uza
-REACT_APP_NAVUS_API_DOMAIN=https://ve8g81z1tb.execute-api.us-east-1.amazonaws.com/v1
-REACT_APP_FORMS_API_DOMAIN=https://asor4lkbh5.execute-api.us-east-1.amazonaws.com/dev/v1
 ```
 
 ### `npm start`
